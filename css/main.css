@@ -1,0 +1,101 @@
+body{
+    background-color: #212529;
+}
+.navbar{
+    background-color: #2f343a !important;
+}
+.modal-content{
+    color: #fff !important;
+    background-color: #2f343a !important;
+}
+.btn-close{
+    color: #fff !important;
+}
+.modal-header, .modal-footer{
+    border: 0px;
+}
+.welcome{
+    width:100%;
+    height:100vh;
+    margin-top: -56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thank{
+    width: 80%;
+    animation: load .3s;
+}
+.addForm{
+    animation: load .3s;
+}
+.text-thank{
+    color:  white; 
+    text-align: justify;
+    font-size: 20px;
+}
+.bienvenida{
+    font-size: 30px;
+}
+
+.card{
+    animation: load .2s;
+    background-color: #2f343a;
+    color: white;
+}
+.product-card{
+    width:300px;
+    padding: 0;
+}
+.detail-product, .modal-product{
+    text-align: center;
+    align-items: center;
+}
+.img-product{
+    width:100%;
+    height:304px;
+    background-color: #fff; 
+}
+.img-product-detail{
+    width: 450px;
+    height:450px;
+}
+.img-modal{
+    width:200px;
+    height: 200px;
+}
+.btn-product-title{
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+.btn-product-title:hover{
+    color: rgb(63, 148, 204);
+}
+.card-title{
+    margin-top: 0;
+}
+
+.form-label{
+    color: white;
+}
+
+
+.mymodal{
+    position: absolute;
+    width: 50px;
+    height:50px;
+    border: solid 1px red;
+    z-index: 10;
+    /* top: -100%;; */
+}
+@keyframes load {
+    0%{
+        opacity: 0;
+        left: -150px;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
